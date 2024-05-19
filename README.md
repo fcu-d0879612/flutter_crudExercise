@@ -1,9 +1,17 @@
 # Flutter crud 練習
-主要功能：
-Add:        以表單方式新增資料
-Get One :   使用下拉式選單選擇指定資料
-Get All :   顯示所有資料
+主頁面：
+![image](doc/Main.png)
 
+Get One :   使用下拉式選單選擇指定資料
+![image](doc/GetOne.png)
+Get All :   顯示所有資料
+![image](doc/Add.png)
+Add:        以表單方式新增資料
+![image](doc/Add.png)
+Edit :    修改項目
+！[image](doc/Edit.png)
+Delect ： 刪除選擇項目
+![image](doc/Delected.png)
 
  +-------------------------------------------------------------+
 |                         Flutter App                          |

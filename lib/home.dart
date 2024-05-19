@@ -149,6 +149,7 @@ class _HomeState extends State<Home> {
                               builder: (context) => Add(
                                   database: widget.database, editHero: hero),
                             ),
+
                             /* 
                           showDialog(
                             context: context,
@@ -199,6 +200,9 @@ class _HomeState extends State<Home> {
                             ),
                             */
                           );
+                          if (result == true) {
+                            refreshHero();
+                          }
                         },
                       ),
                       TextButton(
